@@ -1,0 +1,42 @@
+#How to add a file in Git (some basic Git Commands)
+#Before that we have to clone the Git Repo in your local system
+================================================================
+command:- git clone url(i.e,copy url)
+=======
+
+#Next we need to create a file
+Ex:sample.txt(The file should be any format
+
+#Next you need to add the file in to your git repo
+
+Before that you have to add the file in your local.
+
+command:-Git add filename
+========
+
+Now the file is added in your local
+
+Next you have to check whether the file is tracked or not i.e,Ready to commit
+
+command:- git status
+==========
+It shows the tracked files and untracked files(untracked files means it is not added to local)
+
+now we have to commit that file
+
+command:- git commit -m "commit message"
+=========
+
+now you have check your commit id/messages
+
+command:- git log
+========
+
+now your file is ready to push git repo
+
+command:- git push
+=======
+At that time it asks username and password
+
+Now your file is available in GitHub.
+
