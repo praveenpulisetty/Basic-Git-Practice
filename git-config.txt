@@ -1,0 +1,8 @@
+How to configure Git:-
+=======================
+After cloning/before cloning you have to configure git in your local.Then only the files will be send.
+
+There are mainly  two commands:
+
+	1.git config --global user.email "your mail id"(At the time of creating github accout that mail id you should use)
+	2.git config --global user.name "your github username"
